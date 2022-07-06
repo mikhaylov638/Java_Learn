@@ -2,11 +2,11 @@ package ru.stqa.sandbox.MyFirstProgram;
 
 public class myFirstProgram {
     public static void main(String[] args) {
-        System.out.println("Hello" +  " worlD");
+        String something = "World";
+        System.out.println("Hello " + something + "!");
 
-
-        int l = 4;
-        int s = l*l;
+        double l = 4.5;
+        double s = l*l;
         System.out.println("square " + l + " = " + s);
     }
 }
