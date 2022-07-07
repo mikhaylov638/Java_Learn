@@ -13,25 +13,26 @@ public class myFirstProgram {
 
         System.out.println("");
 
-        double l = 2.5;
-        System.out.println("площадь квадрата со стороной " + l + " = " + square(l));
+        Square s = new Square();
+        s.Leng = 2.5;
+        System.out.println("площадь квадрата со стороной " + s.Leng + " = " + square(s));
 
-        int a,b;
-        a = 5;
-        b = 2;
-        System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + rectangle(a, b));
+        Rectangle r = new Rectangle();
+        r.a = 5;
+        r.b = 2;
+        System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + rectangle(r));
 
     }
 
     public static void hello (String something) {
     System.out.println("Hello " + something + "!");
     }
-    public static double square (double Leng){
-        return Leng * Leng;
+    public static double square (Square s){
+        return s.Leng * s.Leng;
     }
 
-    public static int rectangle (int a, int b){
-        return a*b;
+    public static double rectangle (Rectangle r){
+        return r.a * r.b;
     }
 
 }
