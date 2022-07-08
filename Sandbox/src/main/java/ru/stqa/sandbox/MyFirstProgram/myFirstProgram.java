@@ -13,13 +13,10 @@ public class myFirstProgram {
 
         System.out.println("");
 
-        Square s = new Square();
-        s.Leng = 2.5;
-        System.out.println("площадь квадрата со стороной " + s.Leng + " = " + square(s));
+        Square s = new Square(5); //добавил класс Square с конструктором в класс myFirstProgram
+        System.out.println("площадь квадрата со стороной " + s.Leng + " = " + square(s)); //
 
-        Rectangle r = new Rectangle();
-        r.a = 5;
-        r.b = 2;
+        Rectangle r = new Rectangle(5, 8);
         System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + rectangle(r));
 
     }
