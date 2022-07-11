@@ -8,4 +8,8 @@ public class Square {
         Leng = l;
     }
 
+    public double area(){
+        return this.Leng * this.Leng;
+    }
+
 }
