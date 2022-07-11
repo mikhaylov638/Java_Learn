@@ -14,6 +14,5 @@ public class myFirstProgram {
 
         Rectangle r = new Rectangle(5, 10);
         System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
-
     }
 }
