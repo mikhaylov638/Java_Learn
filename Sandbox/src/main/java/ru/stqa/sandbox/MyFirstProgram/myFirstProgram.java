@@ -8,7 +8,6 @@ public class myFirstProgram {
         h.hello ("3");
 
         System.out.println("");
-
         Square s = new Square(10); //добавил класс Square с конструктором в класс myFirstProgram
         System.out.println("площадь квадрата со стороной " + s.Leng + " = " + s.area()); //
 
