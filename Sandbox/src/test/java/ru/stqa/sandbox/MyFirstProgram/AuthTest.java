@@ -35,17 +35,21 @@ public class AuthTest {
         driver.findElement(By.cssSelector(".sc-dvpmds")).click();
         driver.findElement(By.cssSelector(".sc-dvpmds")).sendKeys("9645821798");
         driver.findElement(By.cssSelector(".sc-dHIava")).click();//нажал далее
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         driver.findElement(By.cssSelector(".sc-dvpmds")).click();
         driver.findElement(By.cssSelector(".sc-dvpmds")).sendKeys("0000");
         driver.findElement(By.cssSelector(".sc-dHIava")).click();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         driver.findElement(By.cssSelector(".sc-dvpmds")).click();
         driver.findElement(By.cssSelector(".sc-dvpmds")).sendKeys("0000");
         driver.findElement(By.cssSelector(".sc-dHIava")).click();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         driver.findElement(By.cssSelector(".sc-jhaWeW")).click();
         driver.findElement(By.cssSelector(".sc-jhaWeW")).sendKeys("0000");
         driver.findElement(By.cssSelector(".sc-dHIava")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.cssSelector(".sc-cLQEGU")).click();
+        Thread.sleep(1500);
+        driver.findElement(By.cssSelector(".sc-hMFtBS [href='/logout']")).click();
     }
 }
